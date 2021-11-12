@@ -5,3 +5,18 @@
 .product-paragraph {
   margin-bottom: 0.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .navbar-class {
+    display: flex;
+    flex-direction: column;
+  }
+  .snipcart-checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart-image {
+    padding: 5px !important;
+  }
+}

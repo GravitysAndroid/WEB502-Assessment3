@@ -3,7 +3,7 @@ import NextImage from "./Image"
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center ml-6 mr-6 mt-4">
+    <div className="flex justify-between items-center ml-6 mr-6 mt-4 navbar-class">
       <Link href="/">
         <a>
           <NextImage
@@ -28,7 +28,13 @@ const Navbar = () => {
         <a className="text-blue-600">Contact</a>
       </Link>
       <button className="snipcart-checkout flex items-center">
-        <NextImage height="150" width="150" src="/cart.svg" alt="Cart" />
+        <NextImage
+          height="50"
+          width="50"
+          src="/cart.png"
+          alt="Cart"
+          className="cart-image"
+        />
         <span className="snipcart-total-price ml-3 font-semibold text-sm text-indigo-500"></span>
       </button>
     </div>
