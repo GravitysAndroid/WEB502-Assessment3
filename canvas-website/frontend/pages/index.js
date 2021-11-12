@@ -43,7 +43,7 @@ const HomePage = () => {
             <p className="mb-2">Quoting</p>
             <p className="mb-10">Get a quote on your job today</p>
             <button className="p-2 bg-blue-600 hover:bg-blue-400 text-gray-300 rounded">
-              <Link href="/">Learn More</Link>
+              <Link href="/">Quote Now</Link>
             </button>
           </div>
           <div className="w-2/6">
